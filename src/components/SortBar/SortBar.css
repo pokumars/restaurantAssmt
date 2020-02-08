@@ -1,0 +1,6 @@
+.SortBar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 4.4rem 10%;
+}

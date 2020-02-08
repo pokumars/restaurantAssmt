@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body{
+  background-color: rgb(216, 168, 236);
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: rgba(51, 2, 71, 0.411);
+}
+
+.image-container img {
+  width: 100%;
 }

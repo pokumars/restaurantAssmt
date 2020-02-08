@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import spots from './restaurants'
+import ResultList from './components/ResultList/ResultList';
+import SortBar from './components/SortBar/SortBar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  const [ restaurants, setRestaurants ] = useState([...spots.restaurants])
+  const [ sortBy, setSortBy ] = useState("default")
+  
+
+  const handleSort = (event) => {
+    event.preventDefault();
+    alert('Your choice ' + event.target.value);
+    setSortBy(event.target.value);
+  }
+ 
+  return (<>
+  
+  <SortBar sortBy= {sortBy} handleSort={handleSort}/>  
+  <ResultList restaurants={restaurants} />
+  </>)
 }
 
 export default App;
