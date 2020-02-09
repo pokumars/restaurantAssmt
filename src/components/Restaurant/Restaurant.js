@@ -1,10 +1,11 @@
-import React from 'react'
-import Tags from '../Tags/Tags'
-import './Restaurant.css'
+/* eslint-disable react/prop-types */
+import React from "react"
+import Tags from "../Tags/Tags"
+import "./Restaurant.css"
 
 const Restaurant = (props) => {
   const { name, tags, image, delivery_price } = props.restaurant
-//TODO put a switch statement for the different currencies
+  //TODO put a switch statement for the different currencies
 
   return (<>
     <div className="Restaurant">

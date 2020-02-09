@@ -1,7 +1,5 @@
-This is for a quick test
+## instructions to run
 
-## Hello World
+npm install to install all dependencies
+npm start to run
 
-In the project directory, you can run:
-
-### `npm start`
