@@ -11,12 +11,11 @@ const App = () => {
 
   const handleSort = (event) => {
     event.preventDefault();
-    alert('Your choice ' + event.target.value);
     setSortBy(event.target.value);
   }
  
   return (<>
-  
+  <h1> Bonsoir </h1>
   <SortBar sortBy= {sortBy} handleSort={handleSort}/>  
   <ResultList restaurants={restaurants} />
   </>)
