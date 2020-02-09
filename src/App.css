@@ -1,9 +1,6 @@
 .App {
   text-align: center;
 }
-body{
-  background-color: rgb(216, 168, 236);
-}
 
 .App-logo {
   height: 40vmin;
@@ -45,7 +42,7 @@ body{
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  background: rgba(51, 2, 71, 0.411);
+  background: rgba(129, 167, 255, 0.5);
 }
 
 .image-container img {
@@ -55,7 +52,7 @@ body{
 h1 {
   padding: .66rem 0;
   text-align: center;
-  background-color: rgba(148, 0, 211,1);
+  background-color: #4264B3;
   font-family: Poppins, sans-serif;
   font-size: 1.8rem;
   color: #fff;

@@ -3,7 +3,7 @@ import Tags from '../Tags/Tags'
 import './Restaurant.css'
 
 const Restaurant = (props) => {
-  const { name, tags, image, delivery_price, currency } = props.restaurant
+  const { name, tags, image, delivery_price } = props.restaurant
 //TODO put a switch statement for the different currencies
 
   return (<>

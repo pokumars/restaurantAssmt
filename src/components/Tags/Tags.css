@@ -1,7 +1,7 @@
 .Tags p{
   display: inline;
-  border-left: 5px solid rgba(255,215,0,0.9);
+  border-left: 5px solid rgba(66, 100, 179, 1);
   margin-right: 5px;
   padding-right: 5px;
-  background-color: rgba(148, 0, 211,0.3);
+  background-color: #BACFFF;
 }

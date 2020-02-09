@@ -7,7 +7,7 @@ const SortBar = (props) => {
 
   return (<>
     <div className="SortBar">
-    <label for="sortOptions">Sort By: </label>
+    <label>Sort By: </label>
         <select value={sortBy} onChange={handleSort}>
           <option value="Default">Default</option>
           <option value="Alphabetically">Alphabetically</option>

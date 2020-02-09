@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 16.66rem;
+  width: 18rem;
   margin: 0 .5rem 2.3rem .5rem;
 }
 
 .Restaurant .image-container {
-  height: 16.66rem;
+  height: 13rem;
   margin-bottom: 1rem;
 }
 
